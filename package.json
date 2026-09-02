@@ -1,0 +1,20 @@
+{
+    "name": "x-snc-partha-ventures",
+    "version": "1.0.0",
+    "description": "Real Estate helper Applications",
+    "license": "UNLICENSED",
+    "imports": {
+        "#now:*": "./@types/servicenow/fluent/*/index.js"
+    },
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.11.2",
+        "@servicenow/glide": "27.0.5",
+        "typescript": "5.5.4"
+    }
+}

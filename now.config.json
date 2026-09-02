@@ -1,0 +1,7 @@
+{
+    "scope": "x_snc_partha",
+    "scopeId": "cb908b023b0bcf101cd400c693e45a4c",
+    "name": "Partha Ventures TS",
+    "tsconfigPath": "./src/server/tsconfig.json",
+    "description": "Real Estate helper Applications TS"
+}
