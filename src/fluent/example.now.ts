@@ -47,6 +47,6 @@ export const x_snc_partha_property_case = Table({
                 delete: { label: 'Neither Urgent nor Important' },
             },
         }),
-        task: StringColumn({ label: 'To Do Things', maxLength: 120 }),
+        task: StringColumn({ label: 'To Dos', maxLength: 120 }),
     }
 })
